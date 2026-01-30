@@ -1,125 +1,363 @@
 <!doctype html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>food exe — entrega 1 (protótipo)</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">food<span class="brand-accent">exe</span></div>
-      <nav class="main-nav" aria-label="menu principal">
-        <a href="#home">home</a>
-        <a href="#sobre">sobre</a>
-        <a href="#cardapio">cardápio</a>
-        <a href="#promocoes">promoções</a>
-        <a href="#contato">contato</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>executando o melhor delivery pra você</h1>
-          <p>peça agora e receba em minutos! comida fresca, rápida e prática.</p>
-          <a class="btn-primary" href="#cardapio">peça agora</a>
-        </div>
-        <div class="hero-image" aria-hidden="true">
-          <img src="imagens/entregador.jpg" alt="entregador com pizza" />
-        </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>food exe — entrega 1 (protótipo)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho-site" id="cabecalho">
+      <div class="container cabecalho-conteudo">
+        <div class="marca">food<span class="marca-destaque">.exe</span></div>
+        <nav class="menu-principal" aria-label="menu principal">
+          <a href="#inicio">início</a>
+          <a href="#sobre">sobre</a>
+          <a href="#servicos">serviços</a>
+          <a href="#cardapio">cardápio</a>
+          <a href="#avaliacoes">avaliações</a>
+          <a href="#contato">contato</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section id="servicos" class="services container">
-      <h2>nossos serviços</h2>
-      <p class="subtitle">descontos, comida fresca e entrega rápida.</p>
-      <div class="service-cards">
-        <article class="card">
-          <h3>descontos exclusivos</h3>
-          <p>cupons e ofertas para clientes.</p>
-        </article>
-        <article class="card">
-          <h3>comida fresca</h3>
-          <p>ingredientes de qualidade e preparo rápido.</p>
-        </article>
-        <article class="card">
-          <h3>entrega rápida</h3>
-          <p>rastreamento do pedido e tempo estimado.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="cardapio" class="categories">
-      <div class="container">
-        <h2>categorias</h2>
-        <div class="cats-grid">
-          <div class="cat">
-            <img src="imagens/lanche.png" alt="sandu��ches" />
-            <span>sanduíches</span>
+    <main>
+      <section id="inicio" class="capa">
+        <div class="container capa-conteudo">
+          <div class="capa-texto">
+            <p class="legenda">executando o melhor delivery pra você</p>
+            <h1>
+              Executando o melhor delivery <br/> pra você. Peça agora <br/> e receba em
+              minutos!
+            </h1>
+            <p class="texto-capa">
+              Descontos incríveis, comida fresquinha e entrega rápida. Um só
+              clique para matar a fome com qualidade.
+            </p>
+            <a class="botao-primario" href="#cardapio">Peça agora</a>
           </div>
-          <div class="cat">
-            <img src="imagens/pizza.png" alt="pizzas" />
-            <span>pizzas</span>
-          </div>
-          <div class="cat">
-            <img src="imagens/refri.png" alt="bebidas" />
-            <span>bebidas</span>
-          </div>
-          <div class="cat">
-            <img src="imagens/combo.png" alt="combos" />
-            <span>combos</span>
+          <div class="capa-imagem" aria-hidden="true">
+            <div class="forma-capa"></div>
+            <img src="imagens/entregador.jpg" alt="entregador com pizza" />
           </div>
         </div>
+      </section>
+
+      <section id="sobre" class="secao-sobre">
+        <div class="container sobre-conteudo">
+          <div class="sobre-texto">
+            <p class="legenda">sobre o food.exe</p>
+            <h2>Tradição em delivery rápido e saboroso</h2>
+            <p>
+              Somos apaixonados por entregar refeições feitas com ingredientes frescos,
+              receitas criativas e muito carinho. Nosso time acompanha cada pedido do
+              preparo à entrega para garantir que sua experiência seja impecável.
+            </p>
+            <p>
+              Atendemos a região do Seridó com cardápio variado, combos personalizados e
+              promoções semanais. Seja para um almoço rápido ou para reunir amigos, pode
+              contar com a gente.
+            </p>
+          </div>
+          <ul class="lista-detalhes">
+            <li><strong>+1200</strong> pedidos entregues por mês</li>
+            <li><strong>20</strong> cozinheiros e entregadores dedicados</li>
+            <li><strong>100%</strong> dos pedidos rastreados em tempo real</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="servicos" class="secao-servicos">
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="legenda">praticidade e sabor</p>
+            <h2>Nossos Serviços</h2>
+            <p class="subtitulo">
+              Descontos incríveis, comida sempre fresca e saudável, e entrega
+              rápida para sua refeição chegar quentinha. Praticidade e sabor em
+              um só lugar!
+            </p>
+          </div>
+          <div class="cartoes-servico">
+            <article class="cartao">
+              <div class="icone">💸</div>
+              <h3>Descontos Exclusivos</h3>
+              <p>
+                Aproveite promoções e vouchers especiais para economizar enquanto
+                saboreia o melhor da culinária. Sabor e economia sempre juntos.
+              </p>
+            </article>
+            <article class="cartao">
+              <div class="icone">🥗</div>
+              <h3>Comida Fresca e Saudável</h3>
+              <p>
+                Ingredientes selecionados e preparo cuidadoso oferecem refeições
+                saudáveis, saborosas e feitas com atenção a cada detalhe.
+              </p>
+            </article>
+            <article class="cartao">
+              <div class="icone">⚡</div>
+              <h3>Entrega Rápida</h3>
+              <p>
+                Garantimos um delivery ágil para que sua comida chegue quentinha
+                no menor tempo possível, com praticidade e carinho.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cardapio" class="secao-categorias">
+        <div class="container">
+          <div class="titulo-secao claro">
+            <p class="legenda">descubra</p>
+            <h2>Categorias</h2>
+            <p class="subtitulo">
+              Cardápio elaborado para atender a todos os gostos e momentos. O
+              Food.exe tem tudo o que você precisa.
+            </p>
+          </div>
+          <div class="grade-categorias">
+            <article class="categoria">
+              <img src="imagens/lanche.png" alt="sanduíches" />
+              <div class="categoria-info">
+                <span>Sanduíches</span>
+                <button class="botao-pilula" aria-label="abrir categoria sanduíches">></button>
+              </div>
+            </article>
+            <article class="categoria">
+              <img src="imagens/pizza.png" alt="pizzas" />
+              <div class="categoria-info">
+                <span>Pizzas</span>
+                <button class="botao-pilula" aria-label="abrir categoria pizzas">></button>
+              </div>
+            </article>
+            <article class="categoria">
+              <img src="imagens/refri.png" alt="bebidas" />
+              <div class="categoria-info">
+                <span>Bebidas</span>
+                <button class="botao-pilula" aria-label="abrir categoria bebidas">></button>
+              </div>
+            </article>
+            <article class="categoria">
+              <img src="imagens/combo.png" alt="combos" />
+              <div class="categoria-info">
+                <span>Combos</span>
+                <button class="botao-pilula" aria-label="abrir categoria combos">></button>
+              </div>
+            </article>
+            <article class="categoria">
+              <img src="imagens/sobremesas.jpg" alt="sobremesas" />
+              <div class="categoria-info">
+                <span>Sobremesas</span>
+                <button class="botao-pilula" aria-label="abrir categoria sobremesas">></button>
+              </div>
+            </article>
+            <article class="categoria">
+              <img src="imagens/salada.jpg" alt="opções veganas" />
+              <div class="categoria-info">
+                <span>Veganos</span>
+                <button class="botao-pilula" aria-label="abrir categoria veganos">></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="secao-pedidos">
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="legenda">favoritos do momento</p>
+            <h2>Seu pedido</h2>
+            <p class="subtitulo">
+              Escolha seu prato favorito e receba em minutos. Fácil, rápido e
+              delicioso.
+            </p>
+          </div>
+          <div class="grade-produtos">
+            <article class="cartao-produto">
+              <img src="imagens/pizza.png" alt="pizza de calabresa" />
+              <h3>Pizza de Calabresa</h3>
+              <p>Molho artesanal, calabresa fatiada, cebola roxa e queijo.</p>
+              <div class="rodape-produto">
+                <span class="preco">R$ 39</span>
+                <button aria-label="adicionar pizza de calabresa">+</button>
+              </div>
+            </article>
+            <article class="cartao-produto">
+              <img src="imagens/pizza.png" alt="pizza frango" />
+              <h3>Pizza Frango C.</h3>
+              <p>Frango desfiado temperado, queijo e catupiry cremoso.</p>
+              <div class="rodape-produto">
+                <span class="preco">R$ 35</span>
+                <button aria-label="adicionar pizza frango">+</button>
+              </div>
+            </article>
+            <article class="cartao-produto">
+              <img src="imagens/hamburguer.jpg" alt="exe hamb" />
+              <h3>Exe Hamb</h3>
+              <p>Burger suculento, queijo, molho especial e pão brioche.</p>
+              <div class="rodape-produto">
+                <span class="preco">R$ 15</span>
+                <button aria-label="adicionar exe hamb">+</button>
+              </div>
+            </article>
+            <article class="cartao-produto">
+              <img src="imagens/refri.png" alt="coca cola 2l" />
+              <h3>Coca Cola 2L</h3>
+              <p>Bebida gelada ideal para acompanhar seus combos.</p>
+              <div class="rodape-produto">
+                <span class="preco">R$ 10</span>
+                <button aria-label="adicionar coca cola">+</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="avaliacoes" class="secao-avaliacoes">
+        <div class="container">
+          <div class="titulo-secao">
+            <p class="legenda">confira</p>
+            <h2>Avaliações</h2>
+            <p class="subtitulo">
+              Agilidade, sabor e qualidade que conquistam todos os dias — veja o
+              que dizem nossos clientes.
+            </p>
+          </div>
+          <div class="grade-avaliacoes">
+            <article class="cartao-avaliacao">
+              <h3>Ana M.</h3>
+              <strong>Perfeito!</strong>
+              <p>
+                "Comida deliciosa, sempre chega quentinha e no prazo. O Food.exe
+                virou meu delivery favorito!"
+              </p>
+            </article>
+            <article class="cartao-avaliacao">
+              <h3>Carlos R.</h3>
+              <strong>Recomendo demais!</strong>
+              <p>
+                "Além da entrega super rápida, eles têm descontos incríveis que
+                fazem a diferença no bolso!"
+              </p>
+            </article>
+            <article class="cartao-avaliacao">
+              <h3>Juliana S.</h3>
+              <strong>Praticidade total!</strong>
+              <p>
+                "Os pratos são bem feitos, com ingredientes frescos, e o sabor é
+                sensacional. Cuidado em cada detalhe!"
+              </p>
+            </article>
+            <article class="cartao-avaliacao">
+              <h3>Mariana F.</h3>
+              <strong>Ótima experiência!</strong>
+              <p>
+                "Os combos são muito bem montados e têm um preço super justo.
+                Vale a pena cada centavo!"
+              </p>
+            </article>
+            <article class="cartao-avaliacao">
+              <h3>Lucas T.</h3>
+              <strong>Agilidade!</strong>
+              <p>
+                "Com apenas alguns cliques, meu pedido já está a caminho. Adoro
+                a rapidez do Food.exe!"
+              </p>
+            </article>
+            <article class="cartao-avaliacao">
+              <h3>Ricardo L.</h3>
+              <strong>Sabor e rapidez!</strong>
+              <p>
+                "Nunca vi um delivery tão eficiente. Comida de qualidade entregue
+                no tempo certo. Sempre volto a pedir."
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <section id="contato" class="secao-contato">
+        <div class="container contato-conteudo">
+          <div>
+            <p class="legenda">fale com a gente</p>
+            <h2>Entre em contato</h2>
+            <p>
+              Tem dúvidas, sugestões ou quer fazer um pedido corporativo? Envie uma mensagem
+              que nossa equipe responde rapidinho.
+            </p>
+          </div>
+          <form class="formulario-contato">
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="campo">
+              <label for="email-contato">E-mail</label>
+              <input type="email" id="email-contato" name="email" placeholder="Seu e-mail" required />
+            </div>
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="botao-primario">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
+
+    <footer class="rodape-site" id="rodape">
+      <div class="container grade-rodape">
+        <div>
+          <div class="marca">food<span class="marca-destaque">.exe</span></div>
+          <p>
+            Transparentes, seguros e focados em oferecer a melhor experiência para
+            você. Em caso de dúvidas, entre em contato conosco!
+          </p>
+          <form class="form-newsletter">
+            <label for="email">Seu e-mail</label>
+            <input id="email" type="email" placeholder="Seu email" />
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div>
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">Sobre</a></li>
+            <li><a href="#cardapio">Suporte</a></li>
+            <li><a href="#cardapio">Chefs</a></li>
+            <li><a href="#cardapio">Blog</a></li>
+            <li><a href="#cardapio">Privacidade e Política</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#cardapio">Retirada Food</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#cardapio">Pedido Online</a></li>
+            <li><a href="#contato">Contatos</a></li>
+            <li><a href="#avaliacoes">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>+55 (84) 000-0000</li>
+            <li>food.exe@gmail.com</li>
+            <li>Ouro Branco - RN</li>
+          </ul>
+          <h4>Redes sociais</h4>
+          <div class="redes">
+            <a href="#">whatsapp</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">x</a>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <section class="order container">
-      <h2>seu pedido</h2>
-      <p class="subtitle">escolha seu prato favorito e receba em minutos.</p>
-      <div class="products-row">
-        <article class="product-card">
-          <img src="imagens/pizza.png" alt="pizza de calabresa" />
-          <h3>pizza de calabresa</h3>
-          <p class="price">r$ 39</p>
-          <button class="btn-secondary">adicionar</button>
-        </article>
-
-        <article class="product-card">
-          <img src="imagens/pizza.png" alt="pizza frango" />
-          <h3>pizza frango c/catupiry</h3>
-          <p class="price">r$ 35</p>
-          <button class="btn-secondary">adicionar</button>
-        </article>
-
-        <article class="product-card">
-          <img src="imagens/hamburger.jpg" alt="x-egg hamb" />
-          <h3>x-egg hamb</h3>
-          <p class="price">r$ 15</p>
-          <button class="btn-secondary">adicionar</button>
-        </article>
-
-        <article class="product-card">
-          <img src="imagens/refri.png" alt="coca cola 2l" />
-          <h3>coca cola 2l</h3>
-          <p class="price">r$ 10</p>
-          <button class="btn-secondary">adicionar</button>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <strong>foodexe</strong> — projeto entrega 1</div>
-      <div class="footer-links">
-        <a href="#contato">contato</a>
-        <a href="#sobre">sobre</a>
-      </div>
-    </div>
-  </footer>
-</body>
+      <p class="rodape-copy">© food.exe — projeto entrega 1</p>
+    </footer>
+  </body>
 </html>
