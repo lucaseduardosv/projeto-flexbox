@@ -1,0 +1,37 @@
+# Projeto Food.exe — Catálogo Delivery
+
+Esse projeto é uma página de delivery fictícia feita em HTML e CSS. A ideia foi montar um catálogo simples de lanches e bebidas usando Flexbox.
+
+## Tema
+- **Categoria:** Catálogo simples de lanches/bebidas.
+- **Descrição:** Página única com herói, seção “Sobre”, serviços, categorias, produtos em destaque, avaliações, contato e rodapé corporativo.
+
+## Onde usei Flexbox
+- O Flexbox foi utilizado para alinhar e distribuir os elementos principais da página:
+1. `header` (`.cabecalho-conteudo` + `.menu-principal`) para alinhar logo e navegação.
+2. Seção hero (`.capa-conteudo`) que divide texto e imagem.
+3. Cards de serviços, categorias, produtos e avaliações (`.cartoes-servico`, `.grade-categorias`, `.grade-produtos`, `.grade-avaliacoes`) usando `flex-wrap` + `gap`.
+4. Seções “Sobre” e “Contato” (`.sobre-conteudo`, `.contato-conteudo`) formando colunas flexíveis.
+
+## Breakpoints
+- **900px:** Hero reorganiza para colunas empilhadas, navegação reduz espaçamento.
+- **600px:** Cabeçalho e formulários passam a coluna única; hero ganha padding menor.
+
+## Organização do código
+- Uso de HTML semântico
+- CSS separado do HTML
+- Uso de classes para facilitar a organização do estilo
+- Uso de variáveis CSS para cores e padrões visuais
+
+## Tecnologias utilizadas
+- HTML
+- CSS 
+
+## Requisitos atendidos
+- Layout responsivo  
+- Uso correto de Flexbox  
+- Imagens com atributo `alt`  
+- Formulário com `label for`  
+- Paleta de cores e tipografia definidas  
+- Uso de `max-width` para centralização do conteúdo  
+- Efeitos `:hover` em botões e links  
